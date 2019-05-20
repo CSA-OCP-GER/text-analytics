@@ -10,11 +10,11 @@ This repository contains a set of Text Analytics examples and challenges for pra
 
 In the language of your choice (Python solution is provided), write a small scripts  that
 
-1. Converts speech into written text (German or English)
+1. Converts speech into written text (German or English) - use can use this [file](data/test.wav)
 
 :question: **Questions:** 
 
-1. What happens if you transcribe a long audio file with the Speech-to-Text API (>15s)?
+1. What happens if you transcribe a long audio file with the Speech-to-Text API (>15s)? What does the provided solution to sentences?
 1. What happens if you select the wrong language in the text-to-speech API? How could you solve this problem?
 
 :see_no_evil: [Hints](hints/speech-to-text.md)

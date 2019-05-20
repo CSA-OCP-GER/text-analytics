@@ -6,6 +6,8 @@ Create a new `Python 3.6 Notebook` in [Azure Notebooks](https://notebooks.azure.
 
 As region, we'll be using `West Europe` in this example. You can find your API key under the service, then `Keys`.
 
+You can use this file [`test.wav`](../data/test.wav) for testing.
+
 ## Speech-to-Text
 
 First, we need to request a token from the `Issue Token endpoint` of the Speech API. Each token is valid for 10 minutes, hence we can either reuse it multiple times (to minimize network traffic and latency), or request a new one for each call:
@@ -42,6 +44,8 @@ with open("test.wav", 'rb') as f:
 response = requests.post(url, headers=headers, params=params, data=data)
 print(json.dumps(response.json(), indent=2))
 ```
+
+For recognizing longer text with multiple sentences, you can follow the [following tutorial](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/quickstart-python).
 
 ***Note:***
 
