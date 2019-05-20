@@ -61,7 +61,7 @@ In the language of your choice (Python solution is provided), write two small sc
 
 ## Text Analytics
 
-:triangular_flag_on_post: **Goal:** Leverage Text Analytics API for extracting sentiment, key phrases, and entities from text
+:triangular_flag_on_post: **Goal:** Leverage Text Analytics API for extracting language, sentiment, key phrases, and entities from text
 
 In the language of your choice (Python solution is provided), write a small scripts that
 
@@ -69,7 +69,7 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :question: **Questions:** 
 
-1. TODO
+1. What happens if we do not pass in the `language` parameter while getting the sentiment? 
 
 :see_no_evil: [Hints](hints/text_analytics.md)
 
