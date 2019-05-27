@@ -83,9 +83,8 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :triangular_flag_on_post: **Goal:** Make your application understand the meaning of text
 
-In the language of your choice (Python solution is provided), write two small scripts or apps that
+In the language of your choice (Python solution is provided), write a small scripts or apps that
 
-1. Translate the input text into German (using the Text Translator API)
 1. Detect the intent and entities of the text (German) - see examples below (using [https://eu.luis.ai](https://eu.luis.ai))
 
 Let's use an example where we want to detect a Pizza order from the user. We also want to detect if the user wants to cancel an order.
