@@ -2,9 +2,15 @@
 
 This repository contains a set of Text Analytics examples and challenges for practicing usage of [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/).
 
+1. Speech-to-Text - Convert audio data (`wav`) into written text
+1. Index unstructured data - Make unstructured data and semi-structured data searchable (pdfs, images, csv, json, etc.)
+1. Convert images to text - Perform OCR and handwriting recognition on image files in order to extract text
+1. Text Analytics - Extract the language, sentiment, key phrases, and entities from text
+1. Language Understanding - Extract the intent and entities from written text
+
 # Challenges
 
-## Speech-to-Text
+## 1. Speech-to-Text
 
 :triangular_flag_on_post: **Goal:** Convert `wav` files to written text
 
@@ -19,7 +25,7 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :see_no_evil: [Hints](hints/speech-to-text.md)
 
-## Index unstructured data
+## 2. Index unstructured data
 
 :triangular_flag_on_post: **Goal:** Deploy an Azure Search instance and index a PDF-based data set 
 
@@ -43,7 +49,7 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :see_no_evil: [Hints](hints/index_data.md)
 
-## Convert images to text
+## 3. Convert images to text
 
 :triangular_flag_on_post: **Goal:** Leverage OCR to make a hand-written or printed text document in images machine-readable
 
@@ -59,7 +65,7 @@ In the language of your choice (Python solution is provided), write two small sc
 
 :see_no_evil: [Hints](hints/ocr.md)
 
-## Text Analytics
+## 4. Text Analytics
 
 :triangular_flag_on_post: **Goal:** Leverage Text Analytics API for extracting language, sentiment, key phrases, and entities from text
 
@@ -73,7 +79,7 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :see_no_evil: [Hints](hints/text_analytics.md)
 
-## Language Understanding
+## 5. Language Understanding
 
 :triangular_flag_on_post: **Goal:** Make your application understand the meaning of text
 
